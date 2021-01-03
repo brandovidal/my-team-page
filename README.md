@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://yellow-beam.surge.sh">
       Demo
     </a>
     <span> | </span>
@@ -48,7 +48,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  [Live demo](https://yellow-beam.surge.sh/)
+  [Live demo](https://yellow-beam.surge.sh)
 
 - What was your experience?
   I feel gratifying to be able to solve this challenge.
