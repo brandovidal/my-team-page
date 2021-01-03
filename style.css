@@ -33,13 +33,15 @@ p {
   margin: 0;
 }
 
+
 /**** Container ****/
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 25px;
+  padding: 5vh 15vw;
 }
+
 
 /**** Heading ****/
 .container .heading {
@@ -57,7 +59,7 @@ p {
   letter-spacing: -0.045em;
   color: var(--color-primary);
   min-width: 290px;
-  margin: 0 215px 0 0;
+  margin: 0 10vw 0 0;
 }
 .container .heading .content .title {
   font-family: var(--font-default);
@@ -78,13 +80,14 @@ p {
   color: var(--color-primary);
 }
 
+
 /**** Gallery ****/
 .container .gallery {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 50px 1fr 50px);
-  grid-column-gap: 25px;
+  grid-column-gap: 95px;
   grid-row-gap: 18px;
   margin-bottom: 80px;
 }
@@ -145,6 +148,7 @@ p {
   max-width: 200px;
 }
 
+
 /**** Footer ****/
 .footer {
   position: static;
@@ -160,7 +164,39 @@ p {
   -moz-user-select: none;
 }
 
+
+/**** Media Queries ****/
+@media (max-width: 1440px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 10vw;
+  }
+  .container .heading .nav {
+    margin: 0 5vw 0 0;
+  }
+  .container .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50px 1fr 50px);
+    grid-column-gap: 50px;
+    grid-row-gap: 18px;
+  }
+  .container .gallery .card .rotate {
+    top: 155px;
+    max-width: 175px;
+  }
+}
 @media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 5vw;
+  }
+  .container .heading .nav {
+    margin: 0;
+  }
   .container .heading {
     display: flex;
     flex-direction: column;
@@ -176,11 +212,9 @@ p {
     padding-bottom: 15px;
   }
   .container .gallery {
-    position: relative;
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 35px 1fr 35px);
-    grid-column-gap: 25px;
+    grid-column-gap: 30px;
     grid-row-gap: 18px;
   }
   .container .gallery .card:nth-child(1) {
@@ -207,10 +241,6 @@ p {
     grid-column: 2/3;
     grid-row: 8/10;
   }
-  .container .gallery .card .rotate {
-    font-size: 10px;
-    line-height: 13px;
-  }
   .container .gallery .card .description {
     font-size: 14px;
     line-height: 21px;
@@ -218,9 +248,10 @@ p {
   .container .gallery .card .rotate {
     top: 130px;
     max-width: 150px;
+    font-size: 10px;
+    line-height: 13px;
   }
 }
-
 @media (max-width: 425px) {
   .container .gallery .card .rotate {
     top: 105px;
