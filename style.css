@@ -192,7 +192,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5vh 5vw;
+    padding: 5vh 7.55vw 5vw 5vw;
   }
   .container .heading .nav {
     margin: 0;
