@@ -39,11 +39,11 @@
 
 *Screenshot Laptop*
 
-![Screenshot Laptop](my-team-page.png)
+![Screenshot Laptop](src/assets/sc-desktop.png)
 
 *Screenshot Mobile*
 
-![Screenshot Mobile](my-team-page-mobile.png)
+![Screenshot Mobile](src/assets/sc-mobile.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
