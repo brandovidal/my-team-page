@@ -80,6 +80,40 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+### Clone this repository
+```bash
+git clone https://github.com/brandovidal/recipe-page
+```
+
+### Install dependencies
+```bash
+npm run install
+```
+
+### Run the app
+```bash
+npm run dev
+```
+
+### Deploy app
+```bash
+npm run build
+```
+
+### Preview deploy
+```bash
+npm run preview
+```
+### Clean repository
+```bash
+npm run clean
+```
+
+
 ## Contact
 
 - GitHub [@brandovidal](https://github.com/brandovidal)
