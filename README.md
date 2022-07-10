@@ -39,11 +39,11 @@
 
 *Screenshot Laptop*
 
-![Screenshot Laptop](src/assets/sc-desktop.png)
+![Screenshot Laptop](./desktop.png)
 
 *Screenshot Mobile*
 
-![Screenshot Mobile](src/assets/sc-mobile.png)
+![Screenshot Mobile](./mobile.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -82,6 +82,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Brando Vidal](https://brandovidal.com)
 - GitHub [@brandovidal](https://github.com/brandovidal)
 - Twitter [@brandovidal](https://twitter.com/brandovidal_)
