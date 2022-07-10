@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://hulking-tramp.surge.sh">
+    <a href="https://my-team-page-a1o.pages.dev/">
       Demo
     </a>
     <span> | </span>
@@ -48,7 +48,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  [Live demo](https://hulking-tramp.surge.sh)
+  [Live demo](https://my-team-page-a1o.pages.dev/)
 
 - What was your experience?
   I feel gratifying to be able to solve this challenge.
